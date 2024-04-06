@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log("Hello, world!")
+import { program } from "commander"
+
+program.name("rabbitmq-cli")
